@@ -13,3 +13,5 @@ const fuzzyMatch = (arr, str) => {
 const matchName = (arr, str) => {
   return arr.filter((e) => e.name === str);
 }; 
+
+const totalBatteries = batteryBatches.reduce ((accumulator,currentValue) => accumulator + currentValue,0) 
